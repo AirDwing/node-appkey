@@ -1,10 +1,13 @@
 {
   "name": "appkey",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "App Key/Secret Generator",
   "main": "src/index.js",
   "engines": {
     "node": ">= 4.9.0"
+  },
+  "scripts": {
+    "benchmark": "matcha benchmark -R plain"
   },
   "dependencies": {},
   "devDependencies": {
@@ -12,7 +15,8 @@
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint-plugin-react": "^7.0.1",
+    "matcha": "^0.7.0"
   },
   "repository": "git@github.com:AirDwing/node-appkey.git",
   "author": "willin <willin@willin.org>",

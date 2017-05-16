@@ -230,6 +230,18 @@ doctrine@^2.0.0:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
+drip@1.1.x:
+  version "1.1.0"
+  resolved "http://registry.npm.taobao.org/drip/download/drip-1.1.0.tgz#ccefb1e686d86fc115b70c9ec126f8f871bdfd7e"
+  dependencies:
+    tea-concat "0.1.0"
+
+electron@0.4.x:
+  version "0.4.1"
+  resolved "http://registry.npm.taobao.org/electron/download/electron-0.4.1.tgz#a78a051a7882f4e542d6e207d8a1a73076b30144"
+  dependencies:
+    drip "1.1.x"
+
 emoji-regex@^6.1.0:
   version "6.4.2"
   resolved "http://registry.npm.taobao.org/emoji-regex/download/emoji-regex-6.4.2.tgz#a30b6fee353d406d96cfb9fa765bdc82897eff6e"
@@ -713,6 +725,13 @@ lodash@^4.0.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+matcha@^0.7.0:
+  version "0.7.0"
+  resolved "http://registry.npm.taobao.org/matcha/download/matcha-0.7.0.tgz#13f805409b37be57032c8458643bf1523ba68dda"
+  dependencies:
+    electron "0.4.x"
+    v8-argv "0.1.x"
+
 minimatch@^3.0.2, minimatch@^3.0.3:
   version "3.0.4"
   resolved "http://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -974,6 +993,10 @@ table@^3.7.8:
     slice-ansi "0.0.4"
     string-width "^2.0.0"
 
+tea-concat@0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/tea-concat/download/tea-concat-0.1.0.tgz#ea2e907400fdd78a6334ce020fa3c69502d99e84"
+
 text-table@~0.2.0:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/text-table/download/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -1005,6 +1028,10 @@ user-home@^2.0.0:
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+
+v8-argv@0.1.x:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/v8-argv/download/v8-argv-0.1.0.tgz#adf777a52dbdc3da9c89c9465e59ed5f3cb6d9a9"
 
 wordwrap@~1.0.0:
   version "1.0.0"

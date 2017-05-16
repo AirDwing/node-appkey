@@ -29,6 +29,17 @@ console.log(key, secret);
 
 `SALT`默认值为6位随机字符,默认生成的`Key`为36字节,`Secret`长度固定为32个字节.
 
+## Benchmark
+
+```
+Benchmark
+  gen ............................................ 138,249 op/s
+
+Suites:  1
+Benches: 1
+Elapsed: 762.67 ms
+```
+
 ## License
 
 MIT
