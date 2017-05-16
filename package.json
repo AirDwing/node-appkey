@@ -1,6 +1,6 @@
 {
   "name": "appkey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App Key/Secret Generator",
   "main": "src/index.js",
   "engines": {
@@ -14,7 +14,7 @@
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-react": "^7.0.1"
   },
-  "repository": "git@github.com:AirDwing/appkey.git",
+  "repository": "git@github.com:AirDwing/node-appkey.git",
   "author": "willin <willin@willin.org>",
   "license": "MIT"
 }
