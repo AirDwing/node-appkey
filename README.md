@@ -32,12 +32,7 @@ console.log(key, secret);
 ## Benchmark
 
 ```
-Benchmark
-  gen ............................................ 138,249 op/s
-
-Suites:  1
-Benches: 1
-Elapsed: 762.67 ms
+gen x 121,577 ops/sec ±1.12% (78 runs sampled)
 ```
 
 ## License
