@@ -1,6 +1,6 @@
 {
   "name": "appkey",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "App Key/Secret Generator",
   "main": "src/index.js",
   "engines": {

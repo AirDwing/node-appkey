@@ -4,10 +4,13 @@ const x = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const maxPos = x.length;
 const md5 = str => crypto.createHash('md5').update(`${str}`).digest('hex');
 
+const rnd = seed => (((seed * 9301) + 49297) % 233280) / (233280.0);
+const rand = number => Math.floor(rnd(new Date().getTime() * Math.random()) * number);
+
 const randStr = (len = 36) => {
   let pwd = '';
   for (let i = 0; i < len; i += 1) {
-    pwd += x.charAt(Math.floor(Math.random() * maxPos));
+    pwd += x.charAt(rand(maxPos));
   }
   return pwd;
 };
